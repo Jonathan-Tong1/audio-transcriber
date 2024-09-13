@@ -1,0 +1,60 @@
+/* Reset some default browser styles for body and html */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: #e0e0e0; /* Light text color */
+  font-family: sans-serif;
+  display: flex; /* Use flexbox to align content */
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align items to the top */
+  padding-top: 50px; /* Optional: Add space from the top if needed */
+}
+
+/* Centered at the top container styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #121212;
+  align-items: center;
+  max-width: 800px; /* Fixed maximum width */
+  width: 100%; /* Full width up to the maximum width */
+  padding: 20px; /* Dark background for the application */
+  border: 3px solid #ffffff; /* White border for a clean look */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7); /* Darker shadow for more contrast */
+  color: #e0e0e0; /* Light text color */
+  box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+}
+
+/* Styling for file input */
+.file-input {
+  margin: 20px 0;
+}
+
+.file-input input {
+  padding: 10px;
+  border: 1px solid #666; /* Darker border for input */
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #555; /* Dark background for input */
+  color: #e0e0e0; /* Light text color for input */
+}
+
+/* Styling for upload button */
+.upload-button {
+  background-color: #007bff; /* Blue background for the button */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+  margin-top: 10px;
+  font-size: 16px; /* Ensure button text is legible */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.upload-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
